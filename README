@@ -1,0 +1,5 @@
+This is a simple webapp that will barf up a spreadsheet based on a simple format.
+
+It's my way of getting around having to open Excel for time reporting. 
+
+I know it's not well written, not at all idiomatic, but it was written in a few hours to solve a specific purpose.  Feel free to do with it as you will.
