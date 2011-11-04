@@ -3,4 +3,4 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
-lib/tasks/projects.rake
+lib/tasks/projects.*
