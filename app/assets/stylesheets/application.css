@@ -5,6 +5,16 @@
  *= require_self
  *= require_tree . 
 */
+body {
+	background-color:#dedede;
+}
 .project, .allocation {
 	height:25px;
+}
+#welcome{
+	background-color:white;
+	width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
 }
