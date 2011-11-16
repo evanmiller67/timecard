@@ -9,10 +9,6 @@
     <%= f.label :supervisor %><br />
     <%= f.text_field :supervisor %>
   </div>
-  <div class="field" style="float:left;margin:5px">
-    <%= f.label :date %><br />
-    <%= f.text_field :date %>
-  </div>
 
   <div id="project_template" style="display:none">
     <%= select_tag "card[projects][]", options_from_collection_for_select(@projects, "id", "name"), :prompt => "---" %><br />
