@@ -11,10 +11,14 @@
   </div>
 
   <div id="project_template" style="display:none">
-    <%= select_tag "card[projects][]", options_from_collection_for_select(@projects, "id", "name"), :prompt => "---" %><br />
+    <div class="project">
+      <%= select_tag "card[projects][]", options_from_collection_for_select(@projects, "id", "name"), :prompt => "---" %><br />
+    </div>
   </div>
   <div id="allocation_template" style="display:none">
-    <input name="card[allocations][]" /><br />
+    <div class="allocation">
+      <input name="card[allocations][]" /><br />
+    </div>
   </div>
   
   <div id="project_allocations" style="clear:both;">
