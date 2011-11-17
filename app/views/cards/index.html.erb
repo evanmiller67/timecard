@@ -10,6 +10,9 @@
     <%= f.text_field :supervisor %>
   </div>
 
+  <div class="hint">
+    <p>Leave something anything, it wont show up on the timecard.</p>
+  </div>
   <div id="project_template" style="display:none">
     <div class="project">
       <%= select_tag "card[projects][]", options_from_collection_for_select(@projects, "id", "name"), :prompt => "---" %><br />
